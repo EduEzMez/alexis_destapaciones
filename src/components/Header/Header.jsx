@@ -8,9 +8,10 @@ const Header = () => {
     
         
     return (
+        <>
         <div className="header_contenedor">
             <p className="logo">PLOMERO 25HS</p>
-            <h1 className="des-logo">El mejor servicio para {ZONAS}</h1>
+            <h1 className="des-logo">El mejor servicio de plomeria y destapaciones para {ZONAS}</h1>
             {
                 NUMERO_TEL != 1161204658 ? 
                     (<p>Numero incorrecto</p>) :
@@ -18,6 +19,12 @@ const Header = () => {
             }
             <a className="letra_boton_wp" href={LLAMAR_WAPP} target="_black"><p className="boton_wp" >LLAMAR</p></a>
         </div>
+        <div className="main_contenedor">
+            <div className="frase_contenedor">
+                <p>Especialistas en destapaciones de cañerías con maquinaria profesional y servicios completos de plomería para resolver cualquier problema de forma eficiente</p>
+            </div>
+        </div>
+        </>
     )
 }
 

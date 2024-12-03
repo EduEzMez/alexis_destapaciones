@@ -19,15 +19,18 @@
 
 .logo{
     color: #e6e6e6;
-    font-size: 2em;
+    font-size: 2.7em;
     font-weight: 900;
     text-shadow: -2px -1px 0 #000, 2px -1px 0 #000, -2px 1px 0 #000, 2px 1px 0 #000
+}
 
+.des-logo{
+    font-size: 1.4em;
 }
 
 .numero_telefono{
     color:crimson;
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
@@ -36,6 +39,7 @@
     background-color: #128c7e ;
     padding: 10px;
     border-radius: 10px;
+    width: 200px;
 }
 
 .boton_wp:hover{
@@ -46,4 +50,24 @@
     color: #e6e6e6;
     text-decoration: none;
     font-weight: 600;
+}
+
+.main_contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frase_contenedor{
+    max-width: 80%;
+}
+
+.frase_contenedor p{
+    font-size: 20px;
+    color: darkcyan;
+    font-weight: 300;
 }

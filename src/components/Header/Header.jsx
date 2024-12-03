@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className="main_contenedor">
             <div className="frase_contenedor">
-                <img className="imagen" src={IMAGEN_PLO} alt="Plomero" />
+                <img className="imagen" src="/public/plo.webp" alt="Plomero" />
                 <p>Especialistas en destapaciones de cañerías con maquinaria profesional y servicios completos de plomería para resolver cualquier problema de forma eficiente</p>
             </div>
         </div>

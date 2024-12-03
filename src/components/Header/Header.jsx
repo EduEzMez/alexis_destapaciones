@@ -4,7 +4,7 @@ const Header = () => {
     const ZONAS = "AMBA Y CABA"
     const NUMERO_TEL = "11-6120-4658"
     const LLAMAR_WAPP = "https://wa.me/541161204658?text=Hola.%20Necesito%20su%20servicio%20de%20plomeria"
-    const IMAGEN_PLO = "./public/plo.webp"
+    const IMAGEN_PLO = "/public/plo.webp"
 
     
         

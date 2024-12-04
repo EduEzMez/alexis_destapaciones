@@ -116,11 +116,17 @@
 }
 
 .footer_contenedor{
+    padding: 20px;
     width: 100%;
-    height: 40vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(71, 71, 71);
+}
+
+.version{
+    color: #128c7e;
+    margin-top: 20px;
 }

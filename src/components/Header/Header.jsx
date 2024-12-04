@@ -51,6 +51,7 @@ const Header = () => {
                     (<p className="numero_telefono">{NUMERO_TEL}</p>)
             }
             <a className="letra_boton_wp" href={LLAMAR_WAPP} target="_black"><p className="boton_wp" >LLAMANOS</p></a>
+            <p className="version">0.0.1</p>
         </div>
         </>
     )

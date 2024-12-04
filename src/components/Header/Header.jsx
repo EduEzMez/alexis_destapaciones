@@ -4,7 +4,7 @@ const Header = () => {
     const ZONAS = "AMBA Y CABA"
     const NUMERO_TEL = "11-6120-4658"
     const LLAMAR_WAPP = "https://wa.me/541161204658?text=Hola.%20Necesito%20su%20servicio%20de%20plomeria"
-    const IMAGEN_PLO = "/src/assets/plo.webp"
+    const IMAGEN_PLO = "/images/plo.webp"
 
     
         
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className="main_contenedor">
             <div className="frase_contenedor">
-                <img className="imagen" src="../assets/plo.webp" alt="Plomero" />
+                <img className="imagen" src="/images/plo.webp" alt="Plomero" />
                 <p>Especialistas en destapaciones de cañerías con maquinaria profesional y servicios completos de plomería para resolver cualquier problema de forma eficiente</p>
             </div>
         </div>
